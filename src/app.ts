@@ -288,17 +288,24 @@ app.post("/api/posts/:id/comment", async (req: Request, res: Response) => {
   res.send(postUpdated);
 });
 
-false &&
-  tuit.collection("posts").insertOne({
-    title: "Holà, worlda!",
-    body: "Thisa isa a testa posta.",
-    userId: 1,
-    comments: [],
-  });
-
-tuit.collection("posts").find().toArray().then(console.log);
+tuit.collection("users").find().toArray().then(console.log);
 // tuit.collection("users").find().toArray().then(console.log);
 // tuit.collection("posts").deleteMany({});
+
+false &&
+  tuit.collection("users").updateOne(
+    {
+      _id: new ObjectId("66ead46b54959f103f3db27b"),
+    },
+    {
+      // name: "Magic user",
+      // email: "magicemail@email.com",
+      // image: null,
+      $set: {
+        image: "/placeholder.png",
+      },
+    }
+  );
 
 app.use(errorNotFoundHandler);
 app.use(errorHandler);
