@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import tuit, { client } from "./db.config.js";
+import tuit from "./db.config.js";
 
 describe("database", () => {
   it("is database up", async () => {
