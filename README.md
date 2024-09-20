@@ -21,3 +21,10 @@ Projet niveau 1 & 2 pour le cours de RenforcementJS
 
 - [Front](https://github.com/Hydevs-Corp/TuitFront)
 - [Docker](https://github.com/Hydevs-Corp/TuitCompose.git)
+
+### Démarrer le projet
+
+1. Créer une [OAuth Apps](https://github.com/settings/developers)
+2. Renseigner le `.env`
+3. npm run build
+4. npm start
