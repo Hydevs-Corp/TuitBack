@@ -8,7 +8,7 @@
   "scripts": {
     "start": "node dist/server.js",
     "clean": "rm -rf dist",
-    "build": "npm run  build:ts && npm run  build:css",
+    "build": "npm run  build:ts",
     "build:ts": "tsc",
     "dev": "tsx watch --env-file=.env src/server.ts",
     "test": "vitest"

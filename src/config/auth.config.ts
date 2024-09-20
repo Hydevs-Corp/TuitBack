@@ -3,7 +3,7 @@ import { MongoDBAdapter } from "@auth/mongodb-adapter";
 import tuit, { client } from "./db.config.js";
 import Credentials from "@auth/express/providers/credentials";
 import { ExpressAuthConfig, User } from "@auth/express";
-import { validPassword } from "src/password.js";
+import { validPassword } from "../password.js";
 
 export const authConfig: ExpressAuthConfig = {
   trustHost: true,

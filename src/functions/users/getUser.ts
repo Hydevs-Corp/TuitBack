@@ -1,5 +1,5 @@
 import { ObjectId } from "mongodb";
-import tuit from "src/config/db.config.js";
+import tuit from "../../config/db.config.js";
 
 export const getUser = async (userId: string) => {
   try {

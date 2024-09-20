@@ -1,4 +1,4 @@
-import { generatePassword } from "src/password.js";
+import { generatePassword } from "../password.js";
 import tuit from "./db.config.js";
 
 const configMagicUser = async () => {
