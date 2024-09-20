@@ -26,12 +26,13 @@ describe("delete a post", () => {
 
     expect(post).toMatchObject(postData);
 
-    if (!post?.id) return;
+    if (!post?._id) return;
 
     const deletePost = await deleteOnePost(post._id.toString());
 
     expect(deletePost).toMatchObject({
       acknowledged: true,
+      deletedCount: 1,
     });
   });
 });

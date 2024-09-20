@@ -170,7 +170,7 @@ app.get(
 );
 
 // tuit.collection("users").find().toArray().then(console.log);
-// tuit.collection("posts").deleteMany();
+false && tuit.collection("posts").deleteMany();
 
 app.use(errorNotFoundHandler);
 app.use(errorHandler);
