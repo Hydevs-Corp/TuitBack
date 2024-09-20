@@ -25,6 +25,7 @@ Projet niveau 1 & 2 pour le cours de RenforcementJS
 ### Démarrer le projet
 
 1. Créer une [OAuth Apps](https://github.com/settings/developers)
-2. Renseigner le `.env`
-3. npm run build
-4. npm start
+2. Ajouter une callback url : http://localhost/api/auth/callback/github
+3. Renseigner le `.env`
+4. npm run build
+5. npm start
