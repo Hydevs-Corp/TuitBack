@@ -17,6 +17,7 @@ Projet niveau 1 & 2 pour le cours de RenforcementJS
 - Modèle fonctionnel ✅
 - Tests unitaires ✅
 
-[Front]
-(https://github.com/Hydevs-Corp/TuitFront)
-[Docker](https://github.com/Hydevs-Corp/TuitCompose.git)
+### Autres parties du projet :
+
+- [Front](https://github.com/Hydevs-Corp/TuitFront)
+- [Docker](https://github.com/Hydevs-Corp/TuitCompose.git)
